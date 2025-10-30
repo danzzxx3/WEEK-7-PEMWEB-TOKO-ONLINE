@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produk | Toko OnlineKu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.jpg" alt="Logo" class="logo">
+      <h1>Toko OnlineKu</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="produk.html" class="active">Produk</a></li>
+        <li><a href="pembayaran.html">Pembayaran</a></li>
+      </ul>
+    </nav>
+    <button id="toggleTema">🌙</button>
+  </header>
+
+  <main>
+    <section class="fade-in">
+      <h2>Pilih Produk Anda</h2>
+
+      <div class="produk-container">
+        <article class="produk">
+          <img src="82.jpg" alt="Kaos" width="200" height="200">
+          <h3>Kaos Keren</h3>
+          <p>Rp 85.000</p>
+          <button class="btn-beli" data-nama="Kaos Keren" data-harga="85000">Tambah</button>
+        </article>
+
+        <article class="produk">
+          <img src="adidas_adidas_x_speedportal-3_laceless_firm_ground_football_shoes_sepatu_bola_pria_-gz5065-_full02_hsijnlbu.webp" alt="Sepatu" width="200" height="200">
+          <h3>Sepatu Sport</h3>
+          <p>Rp 250.000</p>
+          <button class="btn-beli" data-nama="Sepatu Sport" data-harga="250000">Tambah</button>
+        </article>
+
+        <article class="produk">
+          <img src="jam.webp" alt="Jam" width="200" height="200">
+          <h3>Jam Tangan</h3>
+          <p>Rp 190.000</p>
+          <button class="btn-beli" data-nama="Jam Tangan" data-harga="190000">Tambah</button>
+        </article>
+      </div>
+
+      <div class="keranjang fade-in">
+        <h3>🛍️ Keranjang Belanja</h3>
+        <ul id="daftarKeranjang"></ul>
+        <p id="totalHarga">Total: Rp 0</p>
+        <a href="pembayaran.html" class="btn-primary">Lanjut ke Pembayaran</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Toko OnlineKu | Dibuat oleh Muhammad Abdullah Zidan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
